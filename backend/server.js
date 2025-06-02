@@ -14,7 +14,7 @@ app.use(bodyParser.json()); // Parse incoming request bodies as JSON
 const db = mysql.createConnection({
     host: "localhost",    // MySQL server host (localhost if running locally)
     user: "root",         // MySQL username (use your username if not 'root')
-    password: "honeyk@09", // Your MySQL password (change accordingly)
+    password: "your password", // Your MySQL password (change accordingly)
     database: "Inventory"   // Name of the database you're using
 });
 
